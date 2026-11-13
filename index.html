@@ -93,7 +93,16 @@ body {
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 <style>html,body{overscroll-behavior:none;touch-action:none}#canvas{touch-action:none;width:100vw;height:100vh}</style><script>document.addEventListener('DOMContentLoaded',()=>{const canvas=document.getElementById('canvas');function fit(){const w=window.innerWidth,h=window.innerHeight;const scale=Math.min(1,1920/w,1080/h);const width=Math.max(1,Math.round(w*scale)),height=Math.max(1,Math.round(h*scale));if(canvas.width!==width)canvas.width=width;if(canvas.height!==height)canvas.height=height;}fit();window.addEventListener('resize',fit);document.addEventListener('fullscreenchange',fit);});</script>
-	</head>
+			<meta property="og:type" content="website">
+		<meta property="og:title" content="RENspace Breakout">
+		<meta property="og:description" content="Break bricks. Collect moments. Play RENspace Breakout in your browser.">
+		<meta property="og:url" content="https://fr4nckg-spec.github.io/renspace-breakout/">
+		<meta property="og:image" content="https://fr4nckg-spec.github.io/renspace-breakout/breakout-preview.png">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1254">
+		<meta property="og:image:height" content="1254">
+		<meta property="og:image:alt" content="Neon bricks, a red and green ball, and a metal paddle">
+</head>
 	<body>
 		<canvas id="canvas">
 			Your browser does not support the canvas tag.
